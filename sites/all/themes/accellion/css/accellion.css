@@ -319,19 +319,15 @@ margin-top: 0px;
 
 
 /* Block S2 */
-
-/*
 #block-views-resource-datasheet-block-4 {
   position:relative;
   bottom:30px;
 }
-*/
 
-/* HTML List - Settings */
-/*.S2-item-list {
+.S2-item-list {
   position:relative;
   top:30px;
-}*/
+}
 
 /*Block Featured Resources Mobile Productiviy*/
 .featured-resources-mproductivity h3{
@@ -366,10 +362,10 @@ margin-top: 0px;
 }
 
 /*Block Videos starting with Technology*/
-/*.view-display-id-block_4 {
+.view-display-id-block_4 {
   position:relative;
   bottom:30px;
-}*/
+}
 
 #accellionLogo {
 	position:relative;
