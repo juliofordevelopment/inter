@@ -2,9 +2,16 @@
 <div id="Accellion_Header">
   <div style="width:920px;margin:auto;">
     <div style="padding:17px 15px 0 15px;"> 
+
+<!-- LOGO AREA
+
       <a id="accellionLogo" href="/" title="Accellion">
          <img src="/sites/default/files/accellion-logo-white.png" style="width:180px;" /></a>
 
+LOGO AREA ENDS -->
+
+
+<!-- MAIN NAV
 <div id="site-topnav">
   <ul class="dropdown">
     <li><a href="/solutions">Solutions</a>
@@ -50,12 +57,20 @@
     </ul></li>
     <li class='menu-no-hover'>
        <a id='menu-free-trial' href="/trial-demo">Free Trial</a>
+
+MAIN NAV -->
 <!-- Can use this image button as well
        <a href='free-trial'><img width='80px' height='20px' src='/sites/all/themes/accellion/images/btn/btn-free-trial.png'></img></a>
 -->
+
+<!-- MAIN NAV
     </li>
   </ul>
-</div endofdiv='#site-topnav' > 
+</div endofdiv='#site-topnav' >
+
+MAIN NAV -->
+
+
 <!--
 <div id='free-trial'>
   <a href='free-trial'><img width='80px' height='20px' src='/sites/all/themes/accellion/images/btn/btn-free-trial.png'></img></a>
@@ -65,9 +80,21 @@
 <div>
 
 <div id='top-right'>
+
+<!-- TOP NAV
+
 <div id="top-links">
-<a href='/blog' target="_blank">Blog</a> | <a href='/support'>Support</a> | <a href='/contact-us'>Contact Us</a> | <a href="javascript:void(0);" onclick="olark('api.box.expand')">Chat </a> | <a id='site-sales-number'>Sales: (855) 485-4300</a>
+
+<a href='/blog' target="_blank">Blog</a> | <a href='/support'>Support</a> | <a href='/contact-us'>Contact Us</a> | <a href="javascript:void(0);" onclick="olark('api.box.expand')">Chat </a>  | <a id='site-sales-number'>Sales: (855) 485-4300</a> | 
+
 </div>
+
+TOP NAV -->
+
+<?php
+print theme('links', array('links' => menu_navigation_links('menu-worldwide'), 'attributes' => array('class'=> array('links', 'worldwide')) ));
+?>
+
 
 </div>
 
