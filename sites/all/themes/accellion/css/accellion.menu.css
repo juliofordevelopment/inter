@@ -1,28 +1,4 @@
 
-#site-topnav			{ 
-  position: relative; 
-  margin: 0; 
-  padding: 0; 
-  /*z-index: 100;  */
-  float: right;
-  /* margin-right: 230px; */
-  display: inline-block;
-  height: 58px;
-  /*top: -4px;*/
-  top:3px;
-  left:30px;
-  font-size: 15px;
-} 
-#site-topnav a		{ 
-  text-decoration: none; 
-}
-#site-topnav ul		{ 
-  list-style: none; 
-}
-#site-topnav p    { 
-  margin: 15px 0; 
-  word-wrap: break-word;
-}
 
 /* 	LEVEL ONE  */
 ul.dropdown       { 
