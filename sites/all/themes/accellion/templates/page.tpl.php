@@ -15,7 +15,7 @@
   <div id="acchead">
     <?php 
       // GAVIN: print drupal_render($page['acchead']); 
-      include_once(dirname(__FILE__)."/menu-header.tpl.php"); 
+      include_once(dirname(__FILE__)."/menu-header.tpl.php");
      ?>
   </div>
 <?php endif; ?>
