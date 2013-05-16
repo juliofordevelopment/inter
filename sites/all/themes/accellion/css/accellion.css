@@ -90,13 +90,43 @@ line-height: 19px;
 }
 
 
-
-
-
-
-
 /* END NEW HEADER FOR INTERNATIONALIZATION */
 /* ======================================= */
+
+
+/* START: FOOTER ELEMENTS AFTER CONVERTED TO BLOCKS */
+/* ================================================ */
+
+.new-footer-logo {
+  width: 180px;
+  margin-right:8px;
+}
+
+.new-footer-menu1 {
+  width: 180px;
+  margin-right:8px;
+}
+
+.new-footer-menu2 {
+  width: 180px;
+  margin-right:8px;
+}
+
+.new-footer-menu3 {
+  width: 180px;
+  margin-right:8px;
+}
+
+.new-footer-menu4 {
+  width: 180px;
+}
+
+
+/* END: FOOTER ELEMENTS AFTER CONVERTED TO BLOCKS */
+/* ============================================== */
+
+
+
 
 
 
